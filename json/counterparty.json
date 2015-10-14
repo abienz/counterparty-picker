@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "561e8b27bc1a86eb5cf4048f",
+    "index": 0,
+    "guid": "3a72765f-3fc2-4479-8aa3-ae429348cf59",
+    "company": "Olucore"
+  },
+  {
+    "_id": "561e8b27524afa233b4155dc",
+    "index": 1,
+    "guid": "0c50df52-2420-4e04-adb1-1c7b409c6d70",
+    "company": "Fibrodyne"
+  },
+  {
+    "_id": "561e8b275b96a3d880bae6cf",
+    "index": 2,
+    "guid": "6236b9b1-0270-4aad-bd91-01de94953e6a",
+    "company": "Kiosk"
+  },
+  {
+    "_id": "561e8b2754e1c509c2591e17",
+    "index": 3,
+    "guid": "7f4160cc-0768-4130-974f-139b7a539d5f",
+    "company": "Ohmnet"
+  },
+  {
+    "_id": "561e8b27066e50a6c7f71fca",
+    "index": 4,
+    "guid": "72aeb6da-6261-46a6-8945-60ee0ca8aba7",
+    "company": "Nixelt"
+  },
+  {
+    "_id": "561e8b2702d7467f5a144395",
+    "index": 5,
+    "guid": "cdfc536b-c976-4788-950c-23b3233d9ee5",
+    "company": "Zytrac"
+  },
+  {
+    "_id": "561e8b27354f7b0747a48565",
+    "index": 6,
+    "guid": "4af01288-4b79-471f-a1eb-2a2984711519",
+    "company": "Cofine"
+  },
+  {
+    "_id": "561e8b2752efbc648e508e8f",
+    "index": 7,
+    "guid": "a4fc3554-471d-4339-aee8-e51af228bfb1",
+    "company": "Powernet"
+  },
+  {
+    "_id": "561e8b270aad15c075528f8d",
+    "index": 8,
+    "guid": "28c38539-f4b0-4a53-b63b-edebd867b3f7",
+    "company": "Uplinx"
+  },
+  {
+    "_id": "561e8b275a4e8ab4b05fb9ac",
+    "index": 9,
+    "guid": "b9b7571a-ad18-470c-ac0e-a17ab922c0ef",
+    "company": "Acumentor"
+  },
+  {
+    "_id": "561e8b27a0e4b2660725c9b8",
+    "index": 10,
+    "guid": "2eabf4a4-e293-4e7b-ab76-079e5686497d",
+    "company": "Gushkool"
+  },
+  {
+    "_id": "561e8b27e1092ce644cb45c4",
+    "index": 11,
+    "guid": "b3ab99fa-ee3a-435e-a424-7e4a368718b7",
+    "company": "Zaggle"
+  },
+  {
+    "_id": "561e8b27c0c1b297112f41f8",
+    "index": 12,
+    "guid": "1257b8fe-24a9-4705-894b-cf4bfc1d235e",
+    "company": "Equitax"
+  },
+  {
+    "_id": "561e8b27692e380de98bf8fd",
+    "index": 13,
+    "guid": "8fb69ad1-ee02-4ad4-97cf-b2aa1fa6a179",
+    "company": "Plexia"
+  },
+  {
+    "_id": "561e8b27888e96c92cd65209",
+    "index": 14,
+    "guid": "7650c6fa-1fc9-4b6d-8609-e568258f0e2c",
+    "company": "Everest"
+  },
+  {
+    "_id": "561e8b27f1f4b01faac9f397",
+    "index": 15,
+    "guid": "7636f743-013d-4874-809e-353b1bebf86a",
+    "company": "Bristo"
+  },
+  {
+    "_id": "561e8b274965f512d585bd03",
+    "index": 16,
+    "guid": "408262db-3eee-4b55-a5f9-0ade65af7f5b",
+    "company": "Plasto"
+  },
+  {
+    "_id": "561e8b27b0c1e05381a82d5a",
+    "index": 17,
+    "guid": "b90438b4-33f6-4c2f-9eac-a47190555a6c",
+    "company": "Cytrak"
+  },
+  {
+    "_id": "561e8b27d607f83e42e7cc32",
+    "index": 18,
+    "guid": "62c9daf4-2619-470f-b130-4b7f8422dd53",
+    "company": "Kongene"
+  },
+  {
+    "_id": "561e8b2750ee6ed2c7fdc623",
+    "index": 19,
+    "guid": "cd5db8a4-7b02-4c29-82ae-93651ba0689c",
+    "company": "Medcom"
+  },
+  {
+    "_id": "561e8b2730f13f2a75add354",
+    "index": 20,
+    "guid": "a70774b9-cf09-4b12-8321-1c0e18664fe8",
+    "company": "Idetica"
+  },
+  {
+    "_id": "561e8b27882f8b462497a688",
+    "index": 21,
+    "guid": "ab4f28ca-78cd-453f-b132-d3932010fcda",
+    "company": "Quilm"
+  },
+  {
+    "_id": "561e8b2737ded00f01ac3341",
+    "index": 22,
+    "guid": "2312a019-683c-4ae3-8e89-3587da2b80c1",
+    "company": "Assitia"
+  },
+  {
+    "_id": "561e8b278173ea919cacb833",
+    "index": 23,
+    "guid": "947afd3f-d09f-433a-88ed-1cd9d9ab95d8",
+    "company": "Teraprene"
+  },
+  {
+    "_id": "561e8b27d1f1350cb7ce096f",
+    "index": 24,
+    "guid": "9e24ee9b-0e48-47f8-bd24-b140a00b7c54",
+    "company": "Izzby"
+  },
+  {
+    "_id": "561e8b276253209809d50a4f",
+    "index": 25,
+    "guid": "97250e00-2354-45a0-bfc9-3c0ea0ebbf1c",
+    "company": "Bitendrex"
+  },
+  {
+    "_id": "561e8b2755c7df2bfb1982ca",
+    "index": 26,
+    "guid": "d6be921c-cacd-4717-8d5e-1ca16f5cbe49",
+    "company": "Accruex"
+  },
+  {
+    "_id": "561e8b2792d040762184f895",
+    "index": 27,
+    "guid": "2c6832db-1e04-4b6b-9ee7-7128bcfe943a",
+    "company": "Centree"
+  },
+  {
+    "_id": "561e8b27180117dfd8e2e053",
+    "index": 28,
+    "guid": "5b1e6cc3-5157-4201-bdb5-434ce89cb176",
+    "company": "Aquamate"
+  },
+  {
+    "_id": "561e8b272dae3ad2762e311c",
+    "index": 29,
+    "guid": "bd913f96-a426-4943-bd3b-50939a0936cf",
+    "company": "Protodyne"
+  },
+  {
+    "_id": "561e8b276261281a9687a6c0",
+    "index": 30,
+    "guid": "25a736ba-0ddf-4ef4-8868-aa7b0d2d916c",
+    "company": "Elemantra"
+  },
+  {
+    "_id": "561e8b275d5dcb9dcf9e10ce",
+    "index": 31,
+    "guid": "134ed10f-fcf5-45fd-93bd-f5867f91f889",
+    "company": "Terrago"
+  },
+  {
+    "_id": "561e8b2704f81b71e8ad6789",
+    "index": 32,
+    "guid": "7f23632c-1176-49d4-bd14-94a818e53b39",
+    "company": "Utarian"
+  },
+  {
+    "_id": "561e8b27ce68a6bad303cfc7",
+    "index": 33,
+    "guid": "366b0673-e262-44ef-a54e-850d1265fede",
+    "company": "Bicol"
+  },
+  {
+    "_id": "561e8b2796997d6ff80074c5",
+    "index": 34,
+    "guid": "4dc24b5e-17aa-4419-8863-ad655d714c4a",
+    "company": "Cubicide"
+  },
+  {
+    "_id": "561e8b27ea2c2df4fbdda3e9",
+    "index": 35,
+    "guid": "6cd2c60d-ec08-40db-adac-5a8421822226",
+    "company": "Terrasys"
+  },
+  {
+    "_id": "561e8b27867f29e9b478efe7",
+    "index": 36,
+    "guid": "a46f4b67-12fc-46f9-bf1e-03cfd40ea8ad",
+    "company": "Zillacon"
+  },
+  {
+    "_id": "561e8b27f67bdfbf894f4472",
+    "index": 37,
+    "guid": "9fdeb20b-0560-4002-b982-ab1f85cb6971",
+    "company": "Applica"
+  },
+  {
+    "_id": "561e8b27879fd2a10412868a",
+    "index": 38,
+    "guid": "a9efb113-f874-4fcc-a854-4a587c861edd",
+    "company": "Flumbo"
+  },
+  {
+    "_id": "561e8b27a167019617e96d2e",
+    "index": 39,
+    "guid": "184b0048-f1fa-4c1d-96e5-de670c6c71ff",
+    "company": "Comdom"
+  },
+  {
+    "_id": "561e8b27f89ff4e383ea3ebb",
+    "index": 40,
+    "guid": "4484e04d-b9b6-4032-aae9-c2bc89fe6a28",
+    "company": "Sultrax"
+  },
+  {
+    "_id": "561e8b273b7e142946919a47",
+    "index": 41,
+    "guid": "6f7824d7-dc47-4db8-94b0-0cee50fcd2ac",
+    "company": "Netropic"
+  },
+  {
+    "_id": "561e8b277631c6c436b06c4f",
+    "index": 42,
+    "guid": "b40d104f-24c7-4c47-aed3-3b0e93b7cd1b",
+    "company": "Quarex"
+  },
+  {
+    "_id": "561e8b27ddc07cfcb7a149b0",
+    "index": 43,
+    "guid": "e6459345-8c63-4ea9-a943-b8e25955d928",
+    "company": "Koogle"
+  },
+  {
+    "_id": "561e8b270365e27f806477a7",
+    "index": 44,
+    "guid": "796cc454-23a1-4a69-9ed9-d0175eb54603",
+    "company": "Stockpost"
+  },
+  {
+    "_id": "561e8b2712474c6a6ed035f6",
+    "index": 45,
+    "guid": "0aa9b7f0-d5a3-4203-a003-f56542cff792",
+    "company": "Pathways"
+  },
+  {
+    "_id": "561e8b2702e5569b1761cf31",
+    "index": 46,
+    "guid": "053e9b06-85dd-4f4e-bc1a-7383d20d81f4",
+    "company": "Neteria"
+  },
+  {
+    "_id": "561e8b2765362d1a1fec56d9",
+    "index": 47,
+    "guid": "374936d9-1ac3-4cc4-b278-06896c705416",
+    "company": "Inquala"
+  },
+  {
+    "_id": "561e8b2790182b91fa44976b",
+    "index": 48,
+    "guid": "99744a43-6356-4c80-8323-6a5f9da1a183",
+    "company": "Earthpure"
+  },
+  {
+    "_id": "561e8b27892669e8cf7a3e4b",
+    "index": 49,
+    "guid": "88b1fa1e-e80a-4f67-a36c-175a718eb9f9",
+    "company": "Vicon"
+  },
+  {
+    "_id": "561e8b275d2846d512d2c620",
+    "index": 50,
+    "guid": "bc01ed42-98d1-4093-817a-61f53ca0efc1",
+    "company": "Undertap"
+  },
+  {
+    "_id": "561e8b277e8be87e97c9054f",
+    "index": 51,
+    "guid": "141dc22a-7f16-4322-9083-bc2a46cf18ec",
+    "company": "Zensor"
+  },
+  {
+    "_id": "561e8b27e27146ecd139c0f1",
+    "index": 52,
+    "guid": "e8452795-d8a5-4732-ba57-efbfe31fdf88",
+    "company": "Talae"
+  },
+  {
+    "_id": "561e8b27503282a118828674",
+    "index": 53,
+    "guid": "751aa056-4ccb-4416-b8b5-dc414fbf5688",
+    "company": "Envire"
+  },
+  {
+    "_id": "561e8b273ca6a5abc8df6024",
+    "index": 54,
+    "guid": "ea29371c-5786-4333-b95e-963f534cb3a6",
+    "company": "Tellifly"
+  },
+  {
+    "_id": "561e8b273d30e7b9dc754980",
+    "index": 55,
+    "guid": "eb1ba1b2-3fd1-4dce-8843-3f3fce5f1bb2",
+    "company": "Irack"
+  },
+  {
+    "_id": "561e8b274432c5e4957144ec",
+    "index": 56,
+    "guid": "3a7c7257-086d-4403-b4e9-eab8e74c24bd",
+    "company": "Apexia"
+  },
+  {
+    "_id": "561e8b2774b80087b39e5beb",
+    "index": 57,
+    "guid": "33687800-159e-4bb9-97c6-c66e8922e952",
+    "company": "Oceanica"
+  },
+  {
+    "_id": "561e8b27cf4a5491ff1b976e",
+    "index": 58,
+    "guid": "04a4a165-5252-4470-b8be-ae3a4a12bee3",
+    "company": "Comtrak"
+  },
+  {
+    "_id": "561e8b27991631e30c3c51d5",
+    "index": 59,
+    "guid": "fb88ed1a-e071-455e-aa5d-b4bcaa37680c",
+    "company": "Stralum"
+  },
+  {
+    "_id": "561e8b27e9ddc4e159c7b696",
+    "index": 60,
+    "guid": "e512b397-d274-4212-96b9-67e7d2aabd55",
+    "company": "Artiq"
+  },
+  {
+    "_id": "561e8b27cdfe0b9d9bb5b293",
+    "index": 61,
+    "guid": "ad1a8479-462c-4bfb-bd59-eb0ec821bc65",
+    "company": "Apextri"
+  },
+  {
+    "_id": "561e8b27adfbe112a720ed51",
+    "index": 62,
+    "guid": "109b5604-34b7-4425-9889-d84724f7a6a6",
+    "company": "Phuel"
+  },
+  {
+    "_id": "561e8b27d4331f12972c9a54",
+    "index": 63,
+    "guid": "a3799e73-3de6-44d6-a19a-06f25cc28962",
+    "company": "Locazone"
+  },
+  {
+    "_id": "561e8b27ed6729a2151ec806",
+    "index": 64,
+    "guid": "995f6f10-24c3-4e76-a76c-475b2273024f",
+    "company": "Pushcart"
+  },
+  {
+    "_id": "561e8b277742dffb55b51d8d",
+    "index": 65,
+    "guid": "91c19f05-411c-4abe-9b97-7e3fc56469fd",
+    "company": "Kengen"
+  },
+  {
+    "_id": "561e8b276f5d8afc5c505eab",
+    "index": 66,
+    "guid": "8f29175f-835f-4968-ba1a-5fc8b6550958",
+    "company": "Intradisk"
+  },
+  {
+    "_id": "561e8b275e9c31a7f055e49d",
+    "index": 67,
+    "guid": "030cbb14-ceb8-4258-83fd-4962f173ed8d",
+    "company": "Austech"
+  },
+  {
+    "_id": "561e8b27b33ba69b4974ec16",
+    "index": 68,
+    "guid": "1097e3b9-f84f-402c-b7b0-03fd78b2c013",
+    "company": "Shopabout"
+  },
+  {
+    "_id": "561e8b27c5c096ac324e6593",
+    "index": 69,
+    "guid": "e7aca653-5db7-4921-9690-7569a324caaa",
+    "company": "Digiprint"
+  },
+  {
+    "_id": "561e8b2794261eeb11689fcb",
+    "index": 70,
+    "guid": "83256109-0e24-47df-a745-c483ef253188",
+    "company": "Tripsch"
+  },
+  {
+    "_id": "561e8b27ea1a6fe89daa4791",
+    "index": 71,
+    "guid": "388d67c1-de54-4f68-be23-22363e076a06",
+    "company": "Chillium"
+  },
+  {
+    "_id": "561e8b2756bcb703a71caa8d",
+    "index": 72,
+    "guid": "22ee5d22-fe88-46cb-8cb5-8eb8a9730aa6",
+    "company": "Ezent"
+  },
+  {
+    "_id": "561e8b27f9aa6fe28367a105",
+    "index": 73,
+    "guid": "4d7f4707-d038-4333-bf22-d3f24ee847ab",
+    "company": "Amtas"
+  },
+  {
+    "_id": "561e8b276b950222241a2f07",
+    "index": 74,
+    "guid": "abd99109-1364-4351-9a20-662d8356ea44",
+    "company": "Rocklogic"
+  },
+  {
+    "_id": "561e8b2734dbf125ba1f5caa",
+    "index": 75,
+    "guid": "6d742663-4f6d-42a6-a178-c6050ce359c4",
+    "company": "Xylar"
+  },
+  {
+    "_id": "561e8b27e22d28a7f2dbf719",
+    "index": 76,
+    "guid": "a2f3f03b-cc26-484e-8d17-ac8661ee1223",
+    "company": "Techmania"
+  },
+  {
+    "_id": "561e8b274b051bbe2c5a2fb7",
+    "index": 77,
+    "guid": "761a3a6b-18a5-4964-99ae-753c3a6a5df0",
+    "company": "Rooforia"
+  },
+  {
+    "_id": "561e8b27e86f41ae008e7fc6",
+    "index": 78,
+    "guid": "5b782e7f-adab-4ed5-b15e-0f20984c93cd",
+    "company": "Capscreen"
+  },
+  {
+    "_id": "561e8b27f07f3bf328c372c4",
+    "index": 79,
+    "guid": "bdf19539-ff40-4dad-bab8-924d4a8d035c",
+    "company": "Eyeris"
+  },
+  {
+    "_id": "561e8b270911b743cf340eba",
+    "index": 80,
+    "guid": "da813d50-dadd-423a-8c0c-4ab5053d9d58",
+    "company": "Obones"
+  },
+  {
+    "_id": "561e8b27a756d589e2ca8f30",
+    "index": 81,
+    "guid": "6da82a9f-6f36-4721-b8c1-959211daf5c8",
+    "company": "Affluex"
+  },
+  {
+    "_id": "561e8b27b7cb8b9705e9ddde",
+    "index": 82,
+    "guid": "195174cb-b578-4be2-8706-afd2ea95c28c",
+    "company": "Strezzo"
+  },
+  {
+    "_id": "561e8b271855ccde17dd678e",
+    "index": 83,
+    "guid": "441f1b55-8f49-4158-af10-7592bbafe84f",
+    "company": "Comvey"
+  },
+  {
+    "_id": "561e8b278a3aa0ca217a37e2",
+    "index": 84,
+    "guid": "78c6daac-80d8-4784-a6c2-31911a3b768b",
+    "company": "Mantrix"
+  },
+  {
+    "_id": "561e8b27584b2810c041269a",
+    "index": 85,
+    "guid": "1c2980bc-85e0-47de-a47d-6be05b1b23bd",
+    "company": "Temorak"
+  },
+  {
+    "_id": "561e8b27a2f9a2718c69a67f",
+    "index": 86,
+    "guid": "c1da4d78-91ff-4986-a8ed-9ae43e4df9ac",
+    "company": "Ovium"
+  },
+  {
+    "_id": "561e8b27479b641d17dd5d18",
+    "index": 87,
+    "guid": "a84288b7-6125-42cf-9d8c-516ffb5f24c0",
+    "company": "Eschoir"
+  },
+  {
+    "_id": "561e8b2795813d855c881394",
+    "index": 88,
+    "guid": "ab0c3159-1576-4384-8507-4964f73368c5",
+    "company": "Geekmosis"
+  },
+  {
+    "_id": "561e8b2716a79c1f528d0ae8",
+    "index": 89,
+    "guid": "0bd022dc-a266-4d0a-ae6c-f7d3757aa999",
+    "company": "Fitcore"
+  },
+  {
+    "_id": "561e8b275531e77fc9cd5111",
+    "index": 90,
+    "guid": "eac6b4c9-382f-4814-8c71-05c7c0be5a61",
+    "company": "Acrodance"
+  },
+  {
+    "_id": "561e8b27474cdd000a654b34",
+    "index": 91,
+    "guid": "2a799b95-b31b-4cdc-b39c-7832c4a81cd2",
+    "company": "Comveyer"
+  },
+  {
+    "_id": "561e8b27b4fce9daa2499608",
+    "index": 92,
+    "guid": "cf7da3f0-c180-40b3-9f59-c0df9037fc9f",
+    "company": "Digirang"
+  },
+  {
+    "_id": "561e8b279577d472970e958a",
+    "index": 93,
+    "guid": "697c778c-054f-4488-8021-223358322d0d",
+    "company": "Centrexin"
+  },
+  {
+    "_id": "561e8b27b6ff41fbb9f867e3",
+    "index": 94,
+    "guid": "fdc91c8c-f4e9-4994-a0a0-baf0a556bbfe",
+    "company": "Endipine"
+  },
+  {
+    "_id": "561e8b27b7b8e3d80bb898c3",
+    "index": 95,
+    "guid": "4fe8a249-21e6-4a07-98ae-1b2cad6568c9",
+    "company": "Entroflex"
+  },
+  {
+    "_id": "561e8b2770bb03e40eff3aee",
+    "index": 96,
+    "guid": "1d7b528c-36fb-4f11-b9ef-247b0f34ca32",
+    "company": "Zilencio"
+  },
+  {
+    "_id": "561e8b271b0bb0ef66b50fce",
+    "index": 97,
+    "guid": "69749d8b-62dc-4971-89b6-5e11a20dde6d",
+    "company": "Datacator"
+  },
+  {
+    "_id": "561e8b27d6f3ca8b502623d9",
+    "index": 98,
+    "guid": "e4d026bd-fcff-40df-a277-1290f1a076d5",
+    "company": "Qiao"
+  },
+  {
+    "_id": "561e8b27b8014d33297f7fc1",
+    "index": 99,
+    "guid": "a7057734-c697-463f-acae-9c2ccb96cddf",
+    "company": "Boink"
+  }
+]

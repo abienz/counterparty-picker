@@ -1,0 +1,48 @@
+@import 'nib'
+
+#counterparty
+	margin 40px 0
+	position relative
+	&:after
+		color #0065AE
+		content "\232A"
+		position absolute
+		right 10px
+		top 5px
+		transform rotate(90deg)
+		&:hover
+			cursor pointer
+
+#counterparty-text
+	background #081325
+	border none
+	box-sizing border-box
+	color #FFF
+	padding 3px 10px 5px
+	position relative
+	width 100%
+	&:hover,
+	&:focus
+		background #242F46
+
+.list
+	background #FFF
+	border 1px solid #9A9FA6
+	border-radius 4px
+	color #565759
+	max-height 180px
+	overflow auto
+	
+	dt,
+	dd
+		padding 3px 10px
+	dt
+		background #D7D9DF
+	
+	dd:hover
+		background #C0EAFF
+		color #242426
+	dd:hover.active
+	.active
+		background #0065AE
+		color #FFF

@@ -1,0 +1,10 @@
+{
+  "name": "blaze",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-stylus": "latest",
+    "gulp-concat": "latest",
+    "nib": "latest"
+  }
+}
