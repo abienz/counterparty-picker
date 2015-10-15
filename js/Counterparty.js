@@ -81,11 +81,25 @@ var Counterparty = {
 			self.updateList(new_recent_data, recent_list);
 		});
 
+		self.item_filter.on('focus', function(){
+			$('#counterparty').addClass('open');
+		});
+
 		$(document.body).on('keyup, keydown', function(e){
+			console.log(e.keyCode);
 			if (e.keyCode == 38 || e.keyCode == 40){
 				self.handleArrows(e.keyCode);
 			}
+			if (e.keyCode == 13) {
+				self.handleSelect();
+			}
 		});
+
+		$('.close').on('click', function(e){
+			e.preventDefault();
+			self.item_filter.val('');
+			self.item_filter.trigger('keyup');
+		})
 	},
 
 	filterData: function(data) {
@@ -122,6 +136,15 @@ var Counterparty = {
 
 		if (is_list_open) {
 			console.log(key);
+		};
+	},
+
+	handleSelect: function() {
+		var container = $('#counterparty');
+
+		console.log('enter pressed');
+		if (container.hasClass('open')) {
+			container.removeClass('open');
 		};
 	}
 }

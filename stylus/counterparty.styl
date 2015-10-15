@@ -3,15 +3,28 @@
 #counterparty
 	margin 40px 0
 	position relative
-	&:after
+
+.controls
+	padding 3px 0
+	position absolute
+	right 0
+	top 0
+	
+	.arrow
 		color #0065AE
-		content "\232A"
-		position absolute
-		right 10px
-		top 5px
 		transform rotate(90deg)
+		text-decoration none
 		&:hover
 			cursor pointer
+	.close
+		background #9BA0AF
+		border-radius 100%
+		color #242F46
+		display none
+		font-size 1rem
+		margin 0 5px
+		padding 2px 3px 1px 4px
+		text-decoration none
 
 #counterparty-text
 	background #081325
@@ -34,8 +47,6 @@
 	opacity 0
 	overflow auto
 	transition opacity 0.5s ease
-	&.open
-		opacity 1
 
 	dt,
 	dd
@@ -50,3 +61,13 @@
 	.active
 		background #0065AE
 		color #FFF
+		
+.open 
+	.list
+		opacity 1
+
+	.arrow
+		transform rotate(260deg)
+		
+	.close
+		display inline-block
