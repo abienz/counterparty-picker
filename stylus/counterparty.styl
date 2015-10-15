@@ -31,8 +31,12 @@
 	border-radius 4px
 	color #565759
 	max-height 180px
+	opacity 0
 	overflow auto
-	
+	transition opacity 0.5s ease
+	&.open
+		opacity 1
+
 	dt,
 	dd
 		padding 3px 10px

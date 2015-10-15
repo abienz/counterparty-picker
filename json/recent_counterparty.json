@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "561e8b27bc1a86eb5cf4048f",
+    "index": 0,
+    "guid": "3a72765f-3fc2-4479-8aa3-ae429348cf59",
+    "company": "Olucore"
+  },
+  {
+    "_id": "561e8b27524afa233b4155dc",
+    "index": 1,
+    "guid": "0c50df52-2420-4e04-adb1-1c7b409c6d70",
+    "company": "Fibrodyne"
+  },
+  {
+    "_id": "561e8b275b96a3d880bae6cf",
+    "index": 2,
+    "guid": "6236b9b1-0270-4aad-bd91-01de94953e6a",
+    "company": "Kiosk"
+  }
+]
