@@ -62,15 +62,16 @@ var Counterparty = {
 				all_list = self.item_list.find('.all'),
 				recent_list = self.item_list.find('.recent');
 
-		$(document.body).on('click', self.item_list.find('dd'), function(e){
+		$(self.item_list).on('click', function(e){
 			var clicked_item,
 					item_id;
 
-			clicked_item = ($(e.target).is('dd')) ? $(e.target) : $(e.target).parents('dd') ;
+			clicked_item = ($(e.target).is('dd')) ? $(e.target) : $(e.target).parents('dd');
 			item_id = clicked_item.data('item-id');
-			
+
 			self.item_list.find('dd').removeClass('active');
 			clicked_item.addClass('active');
+			self.item_filter.val($('.active').text());
 		});
 
 		self.item_filter.on('keyup', function(){
@@ -82,6 +83,7 @@ var Counterparty = {
 		});
 
 		self.item_filter.on('focus', function(){
+			self.item_filter.trigger('keyup');
 			$('#counterparty').addClass('open');
 		});
 
@@ -146,6 +148,8 @@ var Counterparty = {
 		if (container.hasClass('open')) {
 			container.removeClass('open');
 		};
+		this.item_filter.val($('.active').text());
+		// if(this.item_filter.focus()==true) this.item_filter.blur();
 	}
 }
 
