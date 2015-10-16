@@ -5,6 +5,7 @@ var Counterparty = {
 	RECENT_API_URL: '/json/recent_counterparty.json',
 	json_data: '',
 	recent_data: '',
+	filtered_list: '',
 
 	init: function(){
 		this.item_list = $('.list');
@@ -75,23 +76,29 @@ var Counterparty = {
 			$('#counterparty').removeClass('open');
 		});
 
-		self.item_filter.on('keyup', function(){
+		self.item_filter.on('keyup', function(e){
 			var new_data = self.filterData(self.json_data),
 					new_recent_data = self.filterData(self.recent_data);
 
 			self.updateList(new_data, all_list);
 			self.updateList(new_recent_data, recent_list);
+			if (e.keyCode != 38 || e.keyCode != 40) {
+				console.log(e);
+				console.log('not arrow');
+				self.setFilteredList();
+			}
 		});
 
 		self.item_filter.on('focus', function(){
-			self.item_filter.trigger('keyup');
-			$('#counterparty').addClass('open');
+			if (!$('counterparty').hasClass('open')) {
+				self.item_filter.trigger('keyup');
+				$('#counterparty').addClass('open');
+			}
 		});
 
 		$(document.body).on('keyup, keydown', function(e){
-			console.log(e.keyCode);
 			if (e.keyCode == 38 || e.keyCode == 40){
-				self.handleArrows(e.keyCode);
+				// self.handleArrows(e.keyCode);
 			}
 			if (e.keyCode == 13) {
 				self.handleSelect();
@@ -123,7 +130,7 @@ var Counterparty = {
 				return true;
 			} else {
 				return false;
-			};
+			}
 		});
 
 		return filtered_data;
@@ -143,12 +150,20 @@ var Counterparty = {
 	},
 
 	handleArrows: function(key) {
-		var self = this,
-				is_list_open = self.item_list.hasClass('open')
+		var is_list_open = $('#counterparty').hasClass('open'),
+				current_item = this.item_list.find('.active');
 
 		if (is_list_open) {
-			console.log(key);
-		};
+			if (key == 38) {
+				if (current_item == this.item_list.find('dd').first('dd')) {
+					$('#counterparty').removeClass('open');
+				} else {
+					current_item.removeClass('active').prev().addClass('active');	
+				}
+			} else if (key == 40) {
+				current_item.removeClass('active').next().addClass('active');
+			}
+		}
 	},
 
 	handleSelect: function() {
@@ -160,6 +175,12 @@ var Counterparty = {
 		};
 		this.item_filter.val($('.active').text());
 		// if(this.item_filter.focus()==true) this.item_filter.blur();
+	},
+
+	setFilteredList: function() {
+		this.filtered_list = this.item_list.find('dd');
+		this.filtered_list.removeClass('active');
+		this.filtered_list.first().addClass('active');
 	}
 }
 
